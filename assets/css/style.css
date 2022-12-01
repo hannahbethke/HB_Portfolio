@@ -1236,7 +1236,7 @@ dl, ol, ul {
  *************************************/
 
 .contact-area {
-	background: url(../img/contact-bg.png);
+	background: url("../img/contact-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1262,6 +1262,10 @@ dl, ol, ul {
 
 button, input, textarea {
 	color: #505050;
+}
+
+input {
+	color: white;
 }
 
 button, input, textarea:focus {
