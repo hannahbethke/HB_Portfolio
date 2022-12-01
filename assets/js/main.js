@@ -220,7 +220,7 @@
 						];
 
 				var mapOptions = {
-					center: new google.maps.LatLng(40.7143528, -74.0059731),
+					center: new google.maps.LatLng(40.0154155, -105.270241),
 					zoom: 12,
 					scrollwheel: false,
 					panControl: true,
