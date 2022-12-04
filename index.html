@@ -41,7 +41,7 @@
                     <li class="nav-item"> <a class="nav-link js-scroll active" href="#home">Home</a></li>
                     <li class="nav-item"> <a class="nav-link js-scroll" href="#about">About</a></li>
                     <li class="nav-item"> <a class="nav-link js-scroll" href="#resume">Resume</a></li>
-                    <li class="nav-item"> <a class="nav-link js-scroll" href="#project">Portfolio</a></li>
+                    <li class="nav-item"> <a class="nav-link js-scroll" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"> <a class="nav-link js-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -111,8 +111,8 @@
                     <div class="about-content">
                         <h3>Hello! I'm <span class="color-text">Hannah</span></h3>
 						<h6>Software Engineer & Web Developer</h6>
-                        <p>I'm a Full Stack Software Engineer and General Assembly graduate with a creative eye for design and a natural inclination for problem solving. I come from a family of engineers and have loved building things and solving mysteries since I was a young child. I am breaking into the industry after discovering an interest and talent for computer programming.</p>
-                        <p>I am a seasoned professional with six+ years of managerial/leadership experience. I hold a Bachelor of Science degree in physiology, have an extensive background in performance art, and am a retired Massage Therapist.</p>
+                        <p>Hello! My name is Hannah and I'm a Full Stack Software Engineer and General Assembly Alumni. I am a seasoned professional with over 20 years of experience in the workforce and have been in managerial/leadership positions for six+ years. I hold a Bachelor of Science in Physiology, am a licensed Massage Therapist, and also have an extensive background in performance art. </p>
+                        <p>I made a career change to Software Engineering after discovering an unknown interest and talent in the field. My goal is to deliver clear and concise code that performs well, meets accessibility standards, and produces a user friendly design with aesthetic appeal.</p>
                         <div class="mt-3">
                             <a href="assets/Bethke_Resume_2022_online.pdf" target="_blank" rel="noreferrer noopener">
                                 Download my CV
@@ -124,10 +124,9 @@
         </div>
     </section>
     <!-- About Section End -->
-
-
+    
     <!-- Possible future enhancement: Service Section -->
-    <section id="service" class="service-area section-padding">
+    <!-- <section class="service-area section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -140,18 +139,42 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
 						<div id="service-slide" class="owl-carousel owl-theme owl-loaded owl-drag">
-							<div class="single-services-box">
-								<div class="single-services">
-									<div class="services-icon"> <i class="pe-7s-display1"></i> </div>
-									<div class="services-text">
-										<h3>Web Development</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
-									</div>
-								</div>
+                            <div id="single-services-overlay-box">
+                                <div class="single-services-box">
+                                    <div class="single-services">
+                                        <img src="assets/img/projects/project_4.png" alt="project 4 image">
+                                        <div class="services-text">
+                                            <h3 class="pt-3">Songs to See</h3>
+                                            <h6 class="pt-3">Tech Used:</h6>
+                                            <p class="text-base p-2">
+                                            Python, Django, PostgreSQL, Docker, SeatGeek/Spotify API, HTML5/JS/CSS3 & Bootstrap
+                                        </p>
+                                        </div>
+                                    </div>
+                                    <div class="single-services-overlay overlay-blur" id="overlay">
+                                        <button id="closeOverlay">
+                                            <span><i class="fa fa-close"></i></span>
+                                        </button>
+                                        <div class="overlay-text">
+                                            <p>This app that allows users to search for upcoming concerts in their area, 
+                                                view performer details, a playlist of suggested artists and top songs and login to create a personalized 
+                                                profile.
+                                            </p>
+                                            <div class="blog-bottom-text-link">
+                                                <a class="after-btn" href="#">Launch Application</a>
+                                                <a href="#">View on GitHub</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-context-button pl-3 pb-3">
+                                <button class="after-btn" id="readMore">read more</button>
+                                </div>
 							</div>
+                            
 							<div class="single-services-box">
 								<div class="single-services">
-									<div class="services-icon"> <i class="pe-7s-target"></i> </div>
+									<img src="assets/img/projects/project_3.png" alt="project 3 image">
 									<div class="services-text">
 										<h3>Responsive Design</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
@@ -160,7 +183,7 @@
 							</div>
 							<div class="single-services-box">
 								<div class="single-services">
-									<div class="services-icon"> <i class="pe-7s-graph1"></i> </div>
+									<img src="assets/img/projects/project_2.png" alt="project 2 image">
 									<div class="services-text">
 										<h3>SEO Optimization</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
@@ -169,7 +192,7 @@
 							</div>
 							<div class="single-services-box">
 								<div class="single-services">
-									<div class="services-icon"> <i class="pe-7s-tools"></i> </div>
+									<img src="assets/img/projects/project_1.png" alt="project 1 image">
 									<div class="services-text">
 										<h3>Ui ux Design</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore.</p>
@@ -199,7 +222,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Service Section End -->
 
 
@@ -370,9 +393,9 @@
     </section>
     <!-- Work & Eduction & Skills Section End -->
 
-
+    <!-- Future enhancement? -->
     <!-- Project Section Start -->
-    <section id="project" class="project-area section-padding">
+    <!-- <section id="project" class="project-area section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -393,7 +416,6 @@
                     </div>
                 </div>
                 <div class="project-container">
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all branding webdesign">
                         <a class="popup-img project-item " href="assets/img/projects/work-1.jpg"> <img src="assets/img/projects/work-1.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -404,7 +426,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all photography">
                         <a class="popup-img project-item" href="assets/img/projects/work-2.jpg"> <img src="assets/img/projects/work-2.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -415,7 +436,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all branding webdesign">
                         <a class="popup-img project-item " href="assets/img/projects/work-3.jpg"> <img src="assets/img/projects/work-3.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -426,7 +446,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all branding webdesig photographyn">
                         <a class="popup-img project-item" href="assets/img/projects/work-4.jpg"> <img src="assets/img/projects/work-4.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -437,7 +456,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all webdesign photography">
                         <a class="popup-img project-item" href="assets/img/projects/work-5.jpg"> <img src="assets/img/projects/work-5.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -448,7 +466,6 @@
                             </div>
                         </a>
                     </div>
-                    <!-- project-item -->
                     <div class="col-lg-4 col-md-6 project-grid-item all webdesign photography">
                         <a class="popup-img project-item" href="assets/img/projects/work-6.jpg"> <img src="assets/img/projects/work-6.jpg" alt="img">
                             <div class="project-img-overlay">
@@ -460,7 +477,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- project more button -->
                 <div class="col-md-12">
                     <div class="project-more-btn text-center">
                         <a href="#0" class="after-btn">Previous Project</a>
@@ -468,16 +484,16 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Project Section End -->
 
-    <!-- Testimonials Section Start -->
-    <section id="review" class="testimonial-area bg-dark section-padding">
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="testimonial-area bg-dark section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h2>Testimonials</h2>
+                        <h2>Recent Work</h2>
                     </div>
                 </div>
             </div>
@@ -488,13 +504,19 @@
                         <div class="single-testimonial">
                             <div class="testi-content-inner">
                                 <div class="avatar">
-                                    <img src="assets/img/testimonial-1.jpg" alt="testimonial">
+                                    <img src="assets/img/projects/project_4.png" alt="project 4 image">
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo consequat. enim ad minim veniam, quis nostrud exercitation laboris.</p>
+                                    <h4 class="p-1">Songs to See</h4>
+                                    <p>This app that allows users to search for upcoming concerts in their area, view performer details, generate a suggested playlist of songs and login to create a personalized profile.</p>                                  
+                                    <p class="text-base pt-3">
+                                        <span class="font-weight-bold">Tech used:</span> Python, Django, PostgreSQL, Docker, SeatGeek/Spotify API, HTML5/JS/CSS3 & Bootstrap
+                                    </p>
                                 </div>
-                                <div class="bio-info">
-                                    <h3>Saabir al-Obeid</h3><h6>Business Man</h6>
+                                <div class="blog-bottom-text-link">
+                                    <a class="after-btn" href="#" target="_blank" rel="noreferrer noopener">Launch Application</a>
+                                    <!-- TO-DO: change name, change url -->
+                                    <a href="https://github.com/hannahbethke/project-four.git" target="_blank" rel="noreferrer noopener">View on GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -502,13 +524,20 @@
                         <div class="single-testimonial">
                             <div class="testi-content-inner">
                                 <div class="avatar">
-                                    <img src="assets/img/testimonial-2.jpg" alt="testimonial">
+                                    <img src="assets/img/projects/project_3.png" alt="project 3 image">
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo consequat. enim ad minim veniam, quis nostrud exercitation laboris.</p>
+                                    <h4 class="p-1">Artist Portfolio</h4>
+                                    <p>This project is a full MERN stack, mock portfolio for a graphic artist. The site is designed to be managed by the artist through a hidden administrative login.</p>
+                                    <p class="text-base pt-3">
+                                        <span class="font-weight-bold">Tech used:</span> React, Express, Mongoose, MongoDB, Node & Material UI
+                                    </p>
                                 </div>
-                                <div class="bio-info">
-                                    <h3>Rose Hopkins</h3><h6>Founder of Apple</h6>
+                                <div class="blog-bottom-text-link">
+                                    <a class="after-btn" href="#" target="_blank" rel="noreferrer noopener">Launch Application</a>
+                                    <!-- TO-DO: move front end and back end into one folder, change url -->
+                                    <!-- TO-DO: change name, change url -->
+                                    <a href="https://github.com/hannahbethke/Project-Three-Frontend" target="_blank" rel="noreferrer noopener">View on GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -516,13 +545,19 @@
                         <div class="single-testimonial">
                             <div class="testi-content-inner">
                                 <div class="avatar">
-                                    <img src="assets/img/testimonial-3.jpg" alt="testimonial">
+                                    <img src="assets/img/projects/project_2.png" alt="testimonial">
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo consequat. enim ad minim veniam, quis nostrud exercitation laboris.</p>
+                                    <h4 class="p-1">Employee Portal</h4>
+                                    <p>This is a mock employee portal that allows landscaping employees to login, complete and submit timesheets, access pay data, calendar and bulletin board posts, plus weather and emergency resources.</p>
+                                    <p class="text-base pt-3">
+                                        <span class="font-weight-bold">Tech used:</span> Express/Express-EJS, Mongoose, MongoDB, Bcrypt, Sessions, HTML, CSS & Bulma
+                                    </p>
                                 </div>
-                                <div class="bio-info">
-                                    <h3>Ruben Houston</h3><h6>Ceo of Google</h6>
+                                <div class="blog-bottom-text-link">
+                                    <a class="after-btn" href="#" target="_blank" rel="noreferrer noopener">Launch Application</a>
+                                    <!-- TO-DO: change name, change url -->
+                                    <a href="https://github.com/hannahbethke/Project-Two" target="_blank" rel="noreferrer noopener">View on GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -530,13 +565,19 @@
                         <div class="single-testimonial">
                             <div class="testi-content-inner">
                                 <div class="avatar">
-                                    <img src="assets/img/testimonial-4.jpg" alt="testimonial">
+                                    <img src="assets/img/projects/project_1.png" alt="project photo">
                                 </div>
                                 <div class="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation laboris nisi ut aliquip ex ea commodo consequat. enim ad minim veniam, quis nostrud exercitation laboris.</p>
+                                    <h4 class="p-1">Cocktail Hour</h4>
+                                    <p>This project is a simple web application that allows users to search for cocktail recipes by name or by ingredient. Users can also search for information about most commonly enjoyed spirits.</p>
+                                    <p class="text-base pt-3">
+                                        <span class="font-weight-bold">Tech used:</span> HTML5/JS/CSS3, Cocktail DB API, Bootstrap, & Google Fonts
+                                    </p>
                                 </div>
-                                <div class="bio-info">
-                                    <h3>Monica	Frazier</h3><h6>Coo of Facebook</h6>
+                                <div class="blog-bottom-text-link">
+                                    <a class="after-btn" href="#" target="_blank" rel="noreferrer noopener">Launch Application</a>
+                                    <!-- TO-DO: change name, change url -->
+                                    <a href="https://github.com/hannahbethke/Project-One" target="_blank" rel="noreferrer noopener">View on GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -553,15 +594,13 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2>Blog & Article</h2> 
+						<h2>Recent Projects</h2> 
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 blog-item">
 					<div class="single-blog">
 						<div class="post-img">
-							<a href="#">
-								<img src="assets/img/blog/blog-1.jpg" alt="" />
-							</a>
+							<img src="assets/img/projects/project_4.png" alt="project image" />
 						</div>
 						<div class="blog-content">
 							<div class="blog-date">
@@ -583,7 +622,7 @@
 					<div class="single-blog">
 						<div class="post-img">
 							<a href="#">
-								<img src="assets/img/blog/blog-2.jpg" alt="" />
+								<img src="assets/img/projects/project_2.png" alt="" />
 							</a>
 						</div>
 						<div class="blog-content">
@@ -606,7 +645,7 @@
 					<div class="single-blog">
 						<div class="post-img">
 							<a href="#">
-								<img src="assets/img/blog/blog-3.jpg" alt="" />
+								<img src="assets/img/projects/project_3.png" alt="" />
 							</a>
 						</div>
 						<div class="blog-content">
