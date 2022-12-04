@@ -976,6 +976,9 @@ dl, ol, ul {
 }
 
 /*  Skills  */
+.skills-area {
+	margin: 4rem;
+}
 .skill-item {
   margin-bottom: 30px;
 }
