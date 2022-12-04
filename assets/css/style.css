@@ -207,7 +207,7 @@ dl, ol, ul {
 
 .section-title {
 	text-align: center;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -747,14 +747,84 @@ dl, ol, ul {
  * 06. Services Section Style
  *************************************/
 
-.single-services-box {
+/* .single-services-box {
 	position: relative;
     padding: 45px 25px;
 	border-radius: 3px;
     background-color: #151921;
     text-align: center;
-}
-.single-services-box:before {
+} */
+
+/* .single-services-overlay-box {
+	position: relative;
+} */
+
+/* .single-services-overlay {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 99%;
+	padding: 45px 25px;
+	background: #151921;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: column;
+	opacity: 0;
+	transition: opacity 0.25s;
+	border-bottom: solid 5px transparent;
+} */
+
+/* .overlay-blur {
+	backdrop-filter: blur(5px);
+} */
+
+/* .overlay-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+} */
+
+/* #closeOverlay {
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	background-color: #151921;
+	color: #ffffff;
+	margin-bottom: 2rem;
+	font-size: larger;
+} */
+
+/* 
+.project-context-button {
+	background-color: #151921;
+} */
+
+/* .project-context-button:before {
+		position: absolute;
+		content: "";
+		left: 0px;
+		right: 0px;
+		bottom: 0;
+		min-width: 100%;
+		border-bottom: 2px solid #f55422;
+		  border-bottom-left-radius: 3px;
+		  border-bottom-right-radius: 3px;
+		transform: scaleX(0);
+		-webkit-transition: all 500ms ease;
+		-moz-transition: all 500ms ease;
+		-ms-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	  }
+
+	  .project-context-button:hover:before {
+		transform: scaleX(1);
+	  } */
+
+/* .single-services-box:before {
   position: absolute;
   content: "";
   left: 0px;
@@ -762,23 +832,24 @@ dl, ol, ul {
   bottom: 0;
   min-width: 100%;
   border-bottom: 2px solid #f55422;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
   transform: scaleX(0);
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
-}
+} */
 
-.single-services-box:hover:before {
+
+/* .single-services-box:hover:before {
   transform: scaleX(1);
 }
 .single-services {
-}
+} */
 
-.services-icon {
+/* .services-icon {
     margin-bottom: 30px;
 }
 
@@ -809,8 +880,8 @@ dl, ol, ul {
     transform: rotate(45deg);
     -webkit-transition: all .4s;
     transition: all .4s;
-}
-.single-services-box:hover .services-icon i {
+} */
+/* .single-services-box:hover .services-icon i {
     color: #fff;
 }
 .single-services-box:hover .services-icon i:after {
@@ -822,7 +893,7 @@ dl, ol, ul {
 	color: #ffffff;
 	font-weight: 500;
 	letter-spacing: 1px;
-}
+} */
 
 /**************************************
  * 07.Resume Section Style
@@ -1092,7 +1163,7 @@ dl, ol, ul {
  * 09.Testimonial Section Style
  *************************************/
 .testimonial-area {
-	background: url(../img/review-bg.png);
+	background: url("../img/portfolio-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1118,9 +1189,10 @@ dl, ol, ul {
     margin-bottom: 25px;
 }
 .single-testimonial .avatar img {
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	border: 5px solid #ffffff;
-	width: 110px;
+	width: auto;
+	height: 250px;
 	margin: 0 auto;
 	border-left-color: #f55422;
 	border-bottom-color: #f55422;
@@ -1170,16 +1242,27 @@ dl, ol, ul {
  *************************************/
 
 .blog-area {
+	width:auto;
 }
 .blog-area .single-blog {
 	position: relative;
-	background: #0e121b;
+	/* background: #0e121b; */
+	background: #24262a;
+	border: 5px solid #ffffff;
+	margin: 0 auto;
+	/* border-right-color: #f55422;
+	border-bottom-color: #f55422; */
 }
 .blog-area .post-img {
 	position: relative;
 	overflow: hidden;
 	border-radius: 3px;
 }
+
+.post-img {
+	height: 170px;
+}
+
 .blog-area .single-blog img {
 	-webkit-transition: all .5s;
 	transition: all .5s;
@@ -1229,6 +1312,7 @@ dl, ol, ul {
 
 .blog-bottom-text-link {
     margin-top: 25px;
+	text-align: center;
 }
 
 /**************************************

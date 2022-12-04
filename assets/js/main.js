@@ -150,6 +150,25 @@
 			}
 		}
 	});
+
+	// Service onclick
+	// const openButton = document.querySelector("#readMore");
+	// const overlay = document.querySelector("#overlay");
+	// const closeButton = document.querySelector("#closeOverlay")
+	
+	// function openOverlay() {
+	// 	overlay.style.opacity = "1";
+	// 	overlay.style.height = "120%";
+	// 	openButton.style.display = "none";
+	// };
+
+	// function closeOverlay() {
+	// 	overlay.style.opacity = "0";
+	// 	openButton.style.display = "block";
+	// };
+	
+	// openButton.addEventListener("click", openOverlay);
+	// closeButton.addEventListener("click", closeOverlay);
 	
 	// Testimonials owl
 	$('#testimonial-slide').owlCarousel({
